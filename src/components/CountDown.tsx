@@ -1,10 +1,14 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useContext } from 'react'
 import {FiCheck} from 'react-icons/fi'
+import { ChallengeContext } from '../contexts/ChallengeContext'
 import Styles from '../styles/components/CountDown.module.css'
 
 let countDownTimeOut : NodeJS.Timeout
 
 export function CountDown(){
+
+    const { startNewChallenge } = useContext(ChallengeContext)
+
     const [hasTime , setHasTime] = useState(0.1 * 60) // Coloca tempo no timer = 25 min
     const [isActive, setIsActive] = useState(false) // ** Seta o Timer ativo ou nao 
     const [hasFinished, setHasFinished] =useState(false) // ** Verifica se o timer acabou
@@ -33,6 +37,7 @@ export function CountDown(){
         } else if (isActive && hasTime === 0){
             setHasFinished(true)
             setIsActive(false)
+            startNewChallenge()
         } 
     },[isActive, hasTime])
 
@@ -77,10 +82,7 @@ export function CountDown(){
             )}
            
                 </>
-            )}
-
-            
-             
+            )} 
         </div>
     )
 }
