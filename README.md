@@ -2,6 +2,9 @@
 
 <p>
   <img src="https://img.shields.io/badge/made%20by-Carlos%20Ceagah-6E40C9?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ceagah/move-it?color=6E40C9&style=flat-square">
+  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/ceagah/move-it?color=6E40C9&style=flat-square">
+
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martins-rafael/moveIt?color=6E40C9&style=flat-square">
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/martins-rafael/moveIt?color=6E40C9&style=flat-square">
   <a href="https://opensource.org/licenses/MIT">
@@ -60,6 +63,7 @@ Tecnologias e ferramentas utilizadas no desenvolvimento do projeto:
 
 ```bash
 # Abra um terminal e copie este repositório com o comando
+$ git clone https://github.com/Ceagah/move-it.git
 $ git clone https://github.com/martins-rafael/moveIt.git
 # ou use a opção de download.
 
