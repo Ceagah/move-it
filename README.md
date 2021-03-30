@@ -10,7 +10,7 @@
   <a href="https://opensource.org/licenses/MIT">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
   </a>
-  <a href="https://github.com/martins-rafael/moveIt/commits/master">
+  <a href="https://github.com/Ceagah/move-it/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Ceagah/move-it?color=6E40C9&style=flat-square">
   </a>
 </p>
